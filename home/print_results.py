@@ -66,6 +66,8 @@ def print_results(results_dic, results_stats_dic, model,
     print("\nThe overall count of the images include: \n Number of Images: {:>22}\n Number of dog images: {:>18}\n Number of 'Not-a' dog images: {:>10}".format(results_stats_dic["n_images"], results_stats_dic["n_dogs_img"], results_stats_dic["n_notdogs_img"]))
     print("\nThe statistics value of percentages include:\n % of Correct Dogs: {:>32}\n % of Correct Breed: {:>30}\n % of Correct 'Not-a' Dog: {:>24}\n % of label Matches (dog and not-a-dog): {:>10}".format(results_stats_dic["pct_correct_dogs"], results_stats_dic["pct_correct_breed"], results_stats_dic["pct_correct_notdogs"], results_stats_dic["pct_match"]))  
     
+    # A set of conditional statements to priint misclassifications if the user wants to
+
     if print_incorrect_dogs and results_stats_dic["n_correct_dogs"] + results_stats_dic["n_correct_notdogs"] != results_stats_dic["n_images"]:
         count =1
         for image in results_dic:
