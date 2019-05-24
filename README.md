@@ -22,8 +22,8 @@ These classifiers performed at various levels of **accuracy** and **speed** whic
 
 With machine learning models there always a trade-off between these two variables. Other variables that may come into play include:
 
-- **Interoperability**: How flexible is the classifer when we apply to other applications.
-- **Interpretability**: How easiy is to understand how the classifier performing.
+- **Interoperability**: How flexible is the classifer? How many other applications can we use the classifier on?
+- **Interpretability**: How easy is it to understand how the classifier works?
 
 ### Results - Performance Test One
 
