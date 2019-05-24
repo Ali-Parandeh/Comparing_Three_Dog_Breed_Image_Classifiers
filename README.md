@@ -11,9 +11,9 @@ Three pre-trained classifiers were compared in classifying 40 images of dogs and
 
 ---
 
-### Performance Test One - Classifying 40 images of pets including dogs 
+### Performance Test One - Classifying 40 images of pets 
 
-The overall count of the images used for performance tests include: 
+The overall stats of the images used for performance tests include: 
 - **Number of images:** 40
 - **Number of dog images:**  30
 - **Number of 'Not-a' dog images:** 10
@@ -27,29 +27,30 @@ With machine learning models there always a trade-off between these two variable
 
 ### Results - Performance Test One
 
-Using the 40 pet images, **VGG had the highest accuracy** - **100%** in classifying the dog vs non-dog images and **93.3%** in percentage of correct dog breed classification. 
+Using the 40 pet images, **the VGG model had the highest accuracy** - **100%** in classifying the dog vs non-dog images and **93.3%** accuracy in classifying the dog breeds. 
 
 The VGG model managed to classify all 40 images to **87.5%** accuracy. 
 
-Other classifiers, Alexnet and Resnet managed to classify all images by **75%** and **82.5%** respectively. Therefore, Alexnet is worse than Resnet in than classifying dogs and dog breeds but better than Resnet at classifying non-dogs. 
+Other classifiers, Alexnet and Resnet models managed to classify all images by **75%** and **82.5%** respectively. Therefore, **the Alexnet model is worse than the Resnet model in than classifying dogs and dog breeds but better than the Resnet model at classifying non-dogs.** 
 
-**VGG is 10 times slower than both Alexnet and Resnet classifiers but the most accurate classifier.**
+**The VGG is 10 times slower than both Alexnet and Resnet classifiers but is the most accurate classifier.**
 
 ---
 
-### Performance Test TWO - Classifying 4 images randomly selected from google image search. 
+### Performance Test TWO - Classifying 4 images randomly selected from animals, dogs and everyday objects. 
 
-Pictures selected inlcude: 
+Pictures selected include: 
 - A dog
 - An animal (lizard)
 - an object. 
 - The dog picture was flipped over to act as the 4th picture for this test.
 
-The overall count of the images used for performance tests include: 
+The overall stats of the images used for performance tests include: 
 - **Number of images:** 4
 - **Number of dog images:**  2
 - **Number of 'Not-a' dog images:** 2
 
 ### Results - Performance Test Two
 
-Both VGG and Alexnet did a great job at identifying the dogs vs non-dog images plus identifying the correct breeds. Alexnet was 10 times faster than VGG. If accurancy is important, VGG is the best classifier. However, if time is also important then Alexnet is the most efficient classifier. The worst classifier is Resnet because it did not manage to classify the lizard (non-dog) image. It appears that none of the classifiers are trained to classify non-animal non-dog images (i.e. coffee cup).
+Both VGG and Alexnet models did a great job at identifying the dogs vs non-dog images plus identifying the correct breeds. The Alexnet model was 10 times faster than the VGG. **If accurancy is important, the VGG model is the best classifier. However, if classification speed is also important then the Alexnet model is the best selection.** The worst classifier is Resnet because it did not manage to classify the lizard (non-dog) image. It appears that none of the classifiers are trained to classify objects (i.e. the coffee cup).
+
