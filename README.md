@@ -11,7 +11,7 @@ Three pre-trained classifiers were compared in classifying 40 images of dogs and
 
 ---
 
-### Performance Test One - Classifying 40 images of dogs with variety of breeds and other animals
+### Performance Test One - Classifying 40 images of pets including dogs 
 
 The overall count of the images used for performance tests include: 
 - **Number of images:** 40
